@@ -1,4 +1,4 @@
-create keyspace if not exists datastax_liveindexing_demo WITH replication = {'class': 'NetworkTopologyStrategy', 'SearchAnalytics': 1};
+create keyspace if not exists datastax_liveindexing_demo WITH replication = {'class': 'NetworkTopologyStrategy', 'Solr': 1};
 
 use datastax_liveindexing_demo; 
  
