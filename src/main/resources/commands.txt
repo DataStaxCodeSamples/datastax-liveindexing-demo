@@ -1,0 +1,4 @@
+//Create solr core for users and transactions
+dsetool create_core datastax_liveindexing_demo.users generateResources=true reindex=true coreOptions=src/main/resources/rt.yaml
+dsetool create_core datastax_liveindexing_demo.transactions generateResources=true reindex=true  coreOptions=src/main/resources/rt.yaml
+
